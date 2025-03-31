@@ -1,16 +1,14 @@
-import { CreateTask } from './Components/CreateTask/CreateTask'
-import './App.css'
-import { Container } from './Components/Layouts/Container/Container'
+import React from 'react';
+import MainLayout from './Components/layouts/MainLayout/MainLayout';
+import TaskManager from './Components/pages/TaskManager/TaskManager';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <Container>
-        <CreateTask />
-      </Container>
-    </>
-  )
+    <MainLayout>
+      <TaskManager />
+    </MainLayout>
+  );
 }
 
-export default App
+export default App;
