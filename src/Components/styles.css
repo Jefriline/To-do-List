@@ -34,7 +34,9 @@ textarea:focus {
 
 textarea {
     height: 100px;
-    resize: none;
+    max-width: 460px;
+    min-width: 460px;
+
 }
 
 .add-task {
