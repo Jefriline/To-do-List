@@ -1,5 +1,5 @@
 import React from 'react';
-import MainLayout from './Components/layouts/MainLayout/MainLayout';
+import Container from './Components/Layouts/MainLayout/Container';
 import { FormTask } from './Components/FormTask';
 import { ListTask } from './Components/ListTask';
 import { FIlters } from './Components/FIlters';
@@ -8,14 +8,14 @@ import './App.css';
 
 function App() {
   return (
-    <MainLayout>
+    <Container>
       <div className="container">
         <h2>To-Do List</h2>
         <FormTask />
         <FIlters />
-        //listtask//
+        {/* //listtask// */}
       </div>
-    </MainLayout>
+    </Container>
   );
 }
 
