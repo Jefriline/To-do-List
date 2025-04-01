@@ -33,7 +33,7 @@ textarea:focus {
 }
 
 textarea {
-    height: 100px;
+    min-height: 100px;
     max-width: 460px;
     min-width: 460px;
 
