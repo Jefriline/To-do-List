@@ -1,0 +1,125 @@
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 460px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3478f6;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.add-task {
+    width: 490px;
+    padding: 12px;
+    background: #3478f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.add-task:hover {
+    background: #2461d5;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.filter-btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    color: #333;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    border-color: #3478f6;
+    color: #3478f6;
+}
+
+.list-task {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-task li {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-task li div {
+    text-align: left;
+    flex: 1;
+    padding-right: 15px;
+}
+
+.list-task li h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.list-task li p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.list-task li button {
+    padding: 8px 12px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
