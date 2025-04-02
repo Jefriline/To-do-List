@@ -13,7 +13,7 @@ function App() {
         <h2>To-Do List</h2>
         <FormTask />
         <Filters />
-        {/* <ListTask /> */}
+        <ListTask />
       </div>
     </Container>
   );
