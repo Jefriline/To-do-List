@@ -13,8 +13,9 @@ export const ListTask = () => {
       {
         tasks.map((tasks) => (
           <Task 
-            tittle={tasks.id} 
+            tittle={tasks.tittle} 
             description={tasks.description} 
+            value={tasks.id}
           />
         ))
       }
